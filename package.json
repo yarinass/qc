@@ -1,0 +1,26 @@
+{
+  "name": "query_center_search",
+  "version": "1.0.0",
+  "devDependencies": {
+    "gulp": "~3.8.10",
+    "gulp-less": "~3.0.0",
+    "gulp-watch": "~0.5.0",
+    "gulp-coffee": "~2.2.0",
+    "gulp-stylus": "~2.0.0",
+    "gulp-concat": "~2.5.2",
+    "gulp-uglify": "~1.1.0",
+    "gulp-minify-css": "~0.3.11",
+    "gulp-minify-html": "~0.1.7",
+    "gulp-autoprefixer": "~2.1.0"
+  },
+  "dependencies": {
+    "griddle-react": "^0.4.1",
+    "react": "^0.14.8",
+    "react-bootstrap": "^0.28.5",
+    "react-dom": "^0.14.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors --watch --content-base app/"
+  }
+}
